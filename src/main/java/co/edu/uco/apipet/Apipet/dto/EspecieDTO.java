@@ -38,6 +38,5 @@ public class EspecieDTO {
     }
 
     public EspecieDTO(){
-
     }
 }
