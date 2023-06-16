@@ -2,11 +2,9 @@ package co.edu.uco.apipet.Apipet.controller;
 
 import co.edu.uco.apipet.Apipet.dto.TipoCuidadoDTO;
 import co.edu.uco.apipet.Apipet.service.TipoCuidadoService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(value = "http://localhost:3000")
 @RestController
 @RequestMapping("api/apipet/v1/tipocuidado")
 public class TipoCuidadoController {
